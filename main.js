@@ -4,7 +4,7 @@ var prefix = "m-"
 let type = 1;
 //client est prêt
 client.on("ready", () => {
-console.log('___\nAllumage ou Reboot réussi !\n___\nC\'est allumé ! Le Bots-list va continuer')
+console.log('___\nAllumage ou Reboot réussi !\n___\nC\'est allumé ! Le Bots-list va continuer\n\nJ'\'aime les pâtes)
 client.user.setPresence({game: { name: "#bots-list || BotsB FR", url: "https://www.twitch.tv/pafad0gaming",type}})
 client.user.setUsername("BotsDataBase FR Bots-list")
 });
